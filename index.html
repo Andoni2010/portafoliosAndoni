@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolios</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44b7945723.js" crossorigin="anonymous"></script>    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="/" class="enlace">
+            Andoni
+        </a>
+        <ul>
+            <li><a class="active" href="/">Inicio</a></li>
+            <li><a href="#con">Conocimientos</a></li>
+            <li><a href="#form">Contacto</a></li>
+        </ul>
+    </nav>
+        <div class="container">
+            <ul class="slider">
+                    <li id="slider1">
+                    <img src="IMG_0207.JPG" alt="">
+                </li>
+                <li id="slider2">
+                    <h1> Datos personales</h1>
+                    <p>
+                        <i class="fa-solid fa-at"><a href="#"> andonisanchez@gmail.com</a></i>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-city"><a href="#"> Salamanca, Salamanca, Castilla y León, España</a></i>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"><a href="#"> +34 691015421</a></i>
+                    </p>
+                    <p>
+                        <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/andoni-s%C3%A1nchez-b1514b221"> Linkedin</a></i>
+                    </p>
+                </li>
+            </ul>
+
+            <ul class="btn-slider">
+                <li>
+                    <a href="#slider1">1</a>
+                </li>
+                <li>
+                    <a href="#slider2">2</a>
+                </li>
+
+            </ul>
+        </div>
+        <header class="header">
+            <h1>
+                Hey!! ¿Quieres saber algo sobre mi?  
+            </h1>
+            <h2>
+                Mi nombre es Andoni Sánchez Marigil. Desarrollador web. Encantado de conocerte.
+            </h2>
+            <p>
+                Desde que tenía 16 años ya sabía lo mucho que me gustaba este mundillo. Aunque lo conociera pronto, realmente hasta 5 años más tarde no empecé a estudiar en serio. Ahora ya llevo casi dos años estudiando dia tras dia lenguajes de programación y si os digo la verdad, ME ENCANTA.
+            </p>
+            <p>
+                Ahora que ya sabéis algo de mi. Podéis contactarme en el reverso de la foto de al lado.
+            </p>
+            <p><a download="Cv Andoni" href="Modern Yellow Orange and Navy Graphic Design Resume.png">Descarga mi Cv</a></p>
+
+        </header>
+        <div class="con1">
+            <div class="con">
+                <div class="content-block">
+                  <div class="content-block__effect">
+                    <h2 id="con">Skills</h2>
+                    <div class="progress-container">
+                      <div class="progress-bar" data-effect="1" data-value="75" data-skill="Html"></div>
+                      <div class="progress-bar" data-effect="1" data-value="68" data-skill="Css"></div>
+                      <div class="progress-bar" data-effect="1" data-value="46" data-skill="JavaScipt"></div>
+                      <div class="progress-bar" data-effect="1" data-value="30" data-skill="Python"></div>
+                      <div class="progress-bar" data-effect="1" data-value="10" data-skill="PHP"></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div> 
+        <div id="form" class="formu">
+            <h1> El mensaje alargalo cuanto quieras!!!</h1>
+            <form action="https://formsubmit.co/andonisanchez870@gmail.com" method="post" target="_blank">
+                <fieldset class="formu2">     
+                    <i class="fa-solid fa-paper-plane"></i>       
+                  <p><label>Tu nombre: <input type="text" name="nombre"></label></p>
+                  <p><label>Tu dirección de correo: <input type="text" name="correo"></label></p>
+                  <p>
+                    <label>
+                      Tu mensaje:<br>
+                      <textarea name="mensaje"></textarea>
+                    </label>
+                  </p>
+                  <p class="pro">
+                    <input type="submit" value="Enviar mensaje">              
+                    <input type="reset" value="Comenzar de nuevo">
+                  </p>
+                </fieldset>
+              </form>
+        </div>
+        <footer>
+            <h1><a href="/">Sube al inicio</a></h1>
+    
+        </footer>  
+    <script src="app.js"></script>
+</body>
+</html>
